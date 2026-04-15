@@ -53,13 +53,13 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-12 flex items-center gap-6"
           >
-            <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors">
+            <a href="https://github.com/peace-svg8" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-indigo-600 transition-colors">
               <Github className="h-6 w-6" />
             </a>
             <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors">
               <Linkedin className="h-6 w-6" />
             </a>
-            <a href="#" className="text-slate-400 hover:text-indigo-600 transition-colors">
+            <a href="mailto:amehinpeace@gmail.com" className="text-slate-400 hover:text-indigo-600 transition-colors">
               <Mail className="h-6 w-6" />
             </a>
           </motion.div>
