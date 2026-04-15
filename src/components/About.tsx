@@ -60,6 +60,25 @@ export default function About() {
             </div>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative"
+          >
+            <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/profile.png"
+                alt="Portfolio owner"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            {/* Decorative elements */}
+            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-indigo-600 rounded-3xl -z-10" />
+            <div className="absolute -top-6 -left-6 w-32 h-32 border-4 border-indigo-200 rounded-3xl -z-10" />
+          </motion.div>
         </div>
       </div>
     </section>
