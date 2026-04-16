@@ -29,7 +29,7 @@ export default function Hero() {
               Available for new opportunities
             </span>
             <h1 className="text-4xl md:text-6xl font-bold text-slate-900 leading-[1.1] tracking-tight mb-6">
-              Hi, I'm <span className="text-indigo-600">Peace</span> — I build fast, responsive, and modern web applications.
+              Hi, I'm <span className="text-indigo-600">Peace</span>.
             </h1>
             <p className="text-lg text-slate-600 leading-relaxed mb-10 max-w-2xl">
               A passionate Frontend Developer specializing in building exceptional digital experiences that are functional, beautiful, and user-centric.

@@ -9,13 +9,13 @@ export default function Footer() {
             PEACE<span className="text-slate-900">.DEV</span>
           </div>
           
-          <p className="text-slate-500 text-sm">
-            © {currentYear} Peace. Built with React, Tailwind CSS, and Motion.
+          <p className="text-slate-500 text-sm text-center md:text-left">
+            © {currentYear} Peace. Designed & built with React, Tailwind CSS, and Motion.
           </p>
           
           <div className="flex items-center gap-6 text-sm font-medium text-slate-600">
-            <a href="#" className="hover:text-indigo-600 transition-colors">Privacy</a>
-            <a href="#" className="hover:text-indigo-600 transition-colors">Terms</a>
+            <a href="https://github.com/peace-svg8" target="_blank" rel="noreferrer" className="hover:text-indigo-600 transition-colors">GitHub</a>
+            <a href="#contact" className="hover:text-indigo-600 transition-colors">Contact</a>
           </div>
         </div>
       </div>

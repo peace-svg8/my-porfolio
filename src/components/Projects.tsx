@@ -76,7 +76,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group bg-white rounded-[2rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full"
             >
               <div className="relative aspect-video overflow-hidden">
                 <img
@@ -88,22 +88,22 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-indigo-600/0 group-hover:bg-indigo-600/10 transition-colors" />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 flex-1 flex flex-col">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((t) => (
-                    <span key={t} className="px-2 py-1 rounded-md bg-slate-100 text-slate-600 text-xs font-medium">
+                    <span key={t} className="px-2 py-1 rounded-md bg-indigo-50 text-indigo-700 text-xs font-semibold">
                       {t}
                     </span>
                   ))}
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-600 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-slate-600 text-sm mb-6 line-clamp-2">
+                <p className="text-slate-600 text-sm mb-6 max-h-[3.6rem] overflow-hidden">
                   {project.description}
                 </p>
 
-                <div className="flex items-center gap-4">
+                <div className="mt-auto flex flex-wrap gap-4">
                   <a
                     href={project.liveUrl}
                     className="inline-flex items-center text-sm font-semibold text-indigo-600 hover:text-indigo-700"

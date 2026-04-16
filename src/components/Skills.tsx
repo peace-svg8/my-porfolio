@@ -47,7 +47,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: groupIndex * 0.1 }}
-              className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm"
+              className="bg-white/90 p-8 rounded-[2rem] border border-slate-200 shadow-lg shadow-slate-100"
             >
               <h3 className="text-lg font-bold text-slate-900 mb-6 flex items-center">
                 <span className="w-8 h-1 bg-indigo-600 rounded-full mr-3" />
@@ -61,7 +61,7 @@ export default function Skills() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: (groupIndex * 0.1) + (skillIndex * 0.05) }}
-                    className="px-4 py-2 rounded-lg bg-slate-50 text-slate-700 text-sm font-medium border border-slate-100 hover:border-indigo-200 hover:text-indigo-600 transition-colors cursor-default"
+                    className="px-4 py-2 rounded-2xl bg-slate-50 text-slate-700 text-sm font-semibold border border-slate-200 hover:border-indigo-200 hover:text-indigo-600 transition-colors"
                   >
                     {skill}
                   </motion.span>

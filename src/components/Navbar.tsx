@@ -27,7 +27,7 @@ export default function Navbar() {
           </motion.div>
           
           {/* Desktop Menu */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center space-x-6">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link, index) => (
                 <motion.a
@@ -42,6 +42,12 @@ export default function Navbar() {
                 </motion.a>
               ))}
             </div>
+            <a
+              href="#contact"
+              className="inline-flex items-center px-4 py-2 rounded-full bg-indigo-600 text-white text-sm font-semibold hover:bg-indigo-700 transition-all"
+            >
+              Let's Talk
+            </a>
           </div>
 
           {/* Mobile menu button */}

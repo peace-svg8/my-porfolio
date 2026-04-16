@@ -77,6 +77,7 @@ export default function Contact() {
                     placeholder="John Doe"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
+                    required
                     className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
                   />
                 </div>
@@ -87,6 +88,7 @@ export default function Contact() {
                     placeholder="john@example.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    required
                     className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all"
                   />
                 </div>
@@ -108,6 +110,7 @@ export default function Contact() {
                   placeholder="Tell me about your project..."
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
+                  required
                   className="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all resize-none"
                 />
               </div>
