@@ -41,6 +41,22 @@ const projects = [
     image: "/luxury-crown.png",
     liveUrl: "https://luxury-crown-wigs.vercel.app/",
     githubUrl: "https://github.com/peace-svg8/luxury-crown-wigs"
+  },
+  {
+    title: "Currency Converter and Exchange Rates",
+    description: "A user-friendly currency converter app that fetches real-time exchange rates using APIs, built with TypeScript and Tailwind CSS for a sleek interface.",
+    tech: ["TypeScript", "Tailwind CSS", "API"],
+    image: "/currency-converter.png",
+    liveUrl: "https://xchange-five-omega.vercel.app/",
+    githubUrl: "https://github.com/peace-svg8/xchange"
+  },
+  {
+    title: "Job Application Tracker",
+    description: "A comprehensive job application tracking tool that helps job seekers organize, monitor, and manage their applications with ease, keeping track of deadlines and opportunities in one place.",
+    tech: ["TypeScript", "Tailwind CSS"],
+    image: "/careerflow.png",
+    liveUrl: "https://careerflow-black.vercel.app/",
+    githubUrl: "https://github.com/peace-svg8/careerflow"
   }
 ];
 
@@ -76,7 +92,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group bg-white rounded-[2rem] overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+              className="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300"
             >
               <div className="relative aspect-video overflow-hidden">
                 <img
@@ -88,7 +104,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-indigo-600/0 group-hover:bg-indigo-600/10 transition-colors" />
               </div>
 
-              <div className="p-6 flex-1 flex flex-col">
+              <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((t) => (
                     <span key={t} className="px-2 py-1 rounded-md bg-indigo-50 text-indigo-700 text-xs font-semibold">

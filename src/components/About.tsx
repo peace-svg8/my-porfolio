@@ -6,12 +6,12 @@ export default function About() {
     {
       icon: <Code2 className="h-6 w-6 text-indigo-600" />,
       title: "Clean Code",
-      description: "Build maintainable, scalable, and accessible experiences."
+      description: "I write maintainable, scalable, and well-documented code."
     },
     {
       icon: <Sparkles className="h-6 w-6 text-indigo-600" />,
-      title: "Modern UI",
-      description: "Deliver intuitive interfaces with polished animation and layout."
+      title: "Modern UI/UX",
+      description: "Focusing on intuitive design and smooth user interactions."
     },
     {
       icon: <Cpu className="h-6 w-6 text-indigo-600" />,
@@ -39,10 +39,10 @@ export default function About() {
               Who I am & What I do
             </h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-              I turn complex problems into simple, beautiful, and intuitive digital solutions. My work blends strong visuals with thoughtful engineering and real user value.
+              I'm a developer who loves turning complex problems into simple, beautiful, and intuitive digital solutions. My journey in tech is driven by a constant desire to learn and create things that make an impact.
             </p>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              I don't just write code; I design experiences that feel fast, look polished, and stay easy to maintain as products grow.
+              What makes me different? I don't just write code; I think about the end-user experience, the business goals, and the long-term maintainability of every project I touch.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6">
