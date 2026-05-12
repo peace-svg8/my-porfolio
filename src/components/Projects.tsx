@@ -3,6 +3,22 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "AI Evolution & Adoption",
+    description: "An immersive exploration of the journey from early automata to generative breakthroughs, showcasing how AI is reshaping industries and the future of human connectivity.",
+    tech: ["React", "Tailwind CSS", "TypeScript"],
+    image: "/ai-evolution.png",
+    liveUrl: "https://ai-evolution-eta.vercel.app/",
+    githubUrl: "https://github.com/peace-svg8/AI-evolution"
+  },
+  {
+    title: "QuickQueue",
+    description: "A smart queue management system designed to streamline business operations, reduce wait times, and provide real-time updates for both businesses and customers.",
+    tech: ["React", "Tailwind CSS", "Firebase"],
+    image: "/quickqueue.png",
+    liveUrl: "https://queue-taupe.vercel.app/business/dashboard",
+    githubUrl: "https://github.com/peace-svg8/Queue"
+  },
+  {
     title: "Solaris Nigeria",
     description: "A solar energy services website built for Nigeria, presenting clean power solutions with a polished design, service highlights, and easy contact access.",
     tech: ["TypeScript", "Tailwind CSS"],
